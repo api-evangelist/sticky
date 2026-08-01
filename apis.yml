@@ -1,8 +1,24 @@
 aid: sticky
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sticky.png
 name: Sticky
-description: 'Sticky is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Sticky was a San Francisco-based biometric SaaS company (founded 2009, offices
+  in New York and Stockholm) whose cloud platform ran large-scale market research studies
+  using webcam eye tracking and emotion analytics — measuring what real people saw, missed,
+  and felt when engaging with websites, ads, email, and video. A Northzone portfolio company,
+  Sticky was acquired by Tobii on 2017-05-17 and integrated into Tobii Pro, continuing as
+  "Sticky by Tobii". The sticky.ai website is no longer online and Sticky publishes no
+  public API or developer program.'
 url: https://raw.githubusercontent.com/api-evangelist/sticky/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +26,20 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: tobii
+x-acquired-date: '2017-05-17'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
+- Eye Tracking
+- Market Research
+- Biometrics
+- Emotion Analytics
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sticky-domain-security.yml
+- type: LLMsTxt
+  url: llms/sticky-llms.txt
 - type: Website
   url: http://www.sticky.ai
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

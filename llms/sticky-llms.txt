@@ -1,0 +1,12 @@
+# Sticky
+
+> Sticky was a San Francisco-based biometric SaaS company (founded 2009) whose cloud platform ran large-scale market research studies using webcam eye tracking and emotion analytics, measuring what people saw, missed, and felt across web pages, ads, email, and video. Backed by Northzone, Sticky was acquired by Tobii on 2017-05-17 and integrated into Tobii Pro; the product continued as "Sticky by Tobii". The sticky.ai website is no longer online and Sticky publishes no public API.
+
+## Company
+
+- [Northzone portfolio: Sticky](https://northzone.com/portfolio/sticky-2/): Investor portfolio listing
+- [Tobii acquires Sticky (press release)](https://news.cision.com/tobii-ab/r/tobii-acquires-sticky--a-leading-solution-provider-for-market-research-studies-based-on-webcam-eye-t,c2266009): Acquisition announcement, 2017-05-17
+
+## Profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/sticky/refs/heads/main/apis.yml): API Evangelist machine-readable profile (no APIs — company acquired, site defunct)

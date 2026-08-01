@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://www.sticky.ai (site defunct — Azure "Site Not Found"; TLS cert is the *.azurewebsites.net wildcard, hostname mismatch)
+host: https://www.sticky.ai
+note: sticky.ai no longer serves a website. Sticky was acquired by Tobii on 2017-05-17
+  and folded into Tobii Pro; no well-known discovery surface remains. All probes
+  recorded below; no documents were found to save.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 0
