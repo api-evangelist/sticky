@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "sticky",
+    "captured_at": "2026-10-11T193625",
+    "source_url": "http://www.sticky.ai",
+    "source_type": "Website",
+    "file": "sticky-2026-10-11T193625.png",
+    "bytes": 62000,
+    "capture": "playwright-local"
+  }
+]
